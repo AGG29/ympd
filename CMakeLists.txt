@@ -16,7 +16,7 @@ option(WITH_DYNAMIC_ASSETS "Serve assets dynamically (e.g for development/packag
 option(WITH_IPV6 "enable IPv6 support" OFF)
 option(WITH_SSL "enable SSL support" ON)
 
-find_package(LibMPDClient REQUIRED)cd 
+find_package(LibMPDClient REQUIRED)
 find_package(Threads REQUIRED)
 
 configure_file(src/config.h.in ${PROJECT_BINARY_DIR}/config.h)
