@@ -12,11 +12,11 @@ else()
 endif()
 
 option(WITH_MPD_HOST_CHANGE "Let users of the web frontend change the MPD Host" ON)
-option(WITH_DYNAMIC_ASSETS "Serve assets dynamically (e.g for development/packaging)" OFF)
-option(WITH_IPV6 "enable IPv6 support" ON)
+option(WITH_DYNAMIC_ASSETS "Serve assets dynamically (e.g for development/packaging)" ON)
+option(WITH_IPV6 "enable IPv6 support" OFF)
 option(WITH_SSL "enable SSL support" ON)
 
-find_package(LibMPDClient REQUIRED)
+find_package(LibMPDClient REQUIRED)cd 
 find_package(Threads REQUIRED)
 
 configure_file(src/config.h.in ${PROJECT_BINARY_DIR}/config.h)

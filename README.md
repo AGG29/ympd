@@ -11,7 +11,7 @@ http://www.ympd.org
 ## Dependencies
 
 -   libmpdclient 2: http://www.musicpd.org/libs/libmpdclient/
--   cmake 2.6: http://cmake.org/
+-   cmake 3.25: http://cmake.org/
 -   OpenSSL: https://www.openssl.org/
 
 ## Unix Build Instructions
